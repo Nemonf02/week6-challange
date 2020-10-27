@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+  
+  .grid-container {
+    height: 100vh;
+    /* border: 10px solid #14a76c; */
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: repeat(8, 100px);
+    grid-gap:0px;
+  }
+  
+  .grid-item {
+    background-color:white;
+    border: 3px solid black;
+    padding: 20px;
+  }
+  
+  .item-1{
+      background-color: black;
+  }
