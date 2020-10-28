@@ -25,7 +25,7 @@
   grid-row-end: 4;
   grid-column-start: .5;
   grid-column-end: 2;
-  background-color:navy;
+  background-color:blue;
 }
   .item-2 {
   grid-row-start:1;
