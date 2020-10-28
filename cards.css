@@ -1,25 +1,60 @@
-* {
-    margin: 10px;
-     padding: 10px; 
-    box-sizing: border-box;
-    font-size: 30px;
-  }
+
+  .main{
   
-  .grid-container {
-    height: 100vh;
-    /* border: 10px solid #14a76c; */
-    display: grid;
-    grid-template-rows: 350px 350px ;
-    grid-template-columns: repeat(4, 350px);
-    grid-gap:2px;
+    margin: 2%;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 50px;
+     letter-spacing: 2px ; 
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   
+   button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
   }
-  
-  .grid-item {
-    background-color:white;
-    border: 3px solid black;
-    padding: 20px;
+  button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
   }
-  
-  .item-1{
-      
-  }
+   
+   
+   
